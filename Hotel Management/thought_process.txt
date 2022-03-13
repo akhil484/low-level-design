@@ -1,0 +1,32 @@
+Identify actors, components and use cases
+
+In a hotel we have hotel staff and customers.
+
+	Rooms
+   	  -id
+   	  -floor
+   	  -room_number
+   	  -occupancy(maximum how many people can stay in the room)
+   	  -is_empty
+   	  
+	Customers
+	  -id
+	  -UIN
+	  -Name
+	  
+	Staff
+	  -id
+	  -Name
+	  -Age
+	  -Gender
+	  -Shift_timing
+	  
+	  
+	  There can be an admin that can access all the classes and there can be another actor let's say a receptionist who can engage with rooms and customers classes because receptionist give out roomes normally.
+	  
+	There can be different staff members like chef, room service people, managers, cleaning people. We can have one general class like staff and then one class each for different staff members or simply put designation inside staff class.
+	
+	
+Code taken from here - https://www.youtube.com/watch?v=Hb6WePtPQhg&list=PL12BCqE-Lp650Cg6FZW7SoZwN8Rw1WJI7&index=2
+	
+	

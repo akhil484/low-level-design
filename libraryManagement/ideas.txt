@@ -1,0 +1,30 @@
+First of all there will be books in the library. So, there will be a book class
+	-book_id
+	-book_name
+	-author_name
+	-publication
+	-genre
+	-number_of_copies
+	
+Then comes actors in the system
+	Staff - Librarian,admin
+	Users 
+	
+library can be for studying there and also borrowing books.
+There has to be some seating capacity also into the library. So, maybe we can make a library class also.
+library class
+A library can have walk in arrangements and it can have some members sections also
+When a user comes in the library, the librarian will extract user info and see if he/she is a member or not
+There can be a condition that a user can only borrow one book at a time
+Do we have to provide some kind of system for users also where they can see which book is available in the library?
+
+
+requirements 
+	-verb -> things actor will do
+	-noun -> component of our system
+actor based on requirements
+components based on actor
+
+Search books 
+can be multiple components
+send notification when due date has come or book is available

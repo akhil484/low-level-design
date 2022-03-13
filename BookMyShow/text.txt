@@ -1,0 +1,30 @@
+There will be an interface where you can find movies to book
+Now, you may or maynot get a choice to choose in which theatre to watch that movie
+
+There can be a movie class which can have objects from other class as well
+	Name
+	genre
+	director
+	producer
+	release date
+	actors
+	running time
+	
+a user class which will have information about a person
+might have a theatre class and it will have 
+	no of screens - no of seats available, price of seat, filled or not, datea
+	list of movies objects
+	area
+	location
+	date
+	
+How will booking happen?
+There will be options for payment also and cancelling of the booking also.
+
+booking can be another class
+	movie object
+	theatre/no of screens
+	payment class
+	cancel a movie booking
+	
+admin/system that can have access to several classes

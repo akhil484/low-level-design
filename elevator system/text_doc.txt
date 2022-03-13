@@ -1,0 +1,24 @@
+	Elevator
+	   -id
+	   -direction
+	   -states
+	
+	Request
+	   -id
+	   -floor
+	   -request_queue
+	
+	floors
+	
+	Actors - Users, Admin
+	
+State of lift can be
+	-Idle
+	-Working
+	-Not working
+First I am assuming that there is only one floor. So, It will take one full tour of all the floors and then it will come back down and thus it can carry people to their respective floors on the way. For this, we can have a request queue for all the requests and for the elevator we will have a string or binary number for ex - 1(going up), 0(going down). 
+	
+When the requests come, elevator can have two directions.
+If elevator->direction =1 and request->floor>elevator->floor, we can process that request other wise it will go into the queue.
+If elevator->direction =0 and request->floor<elevator->floor, we can process that request other wise it will go into the queue.
+
