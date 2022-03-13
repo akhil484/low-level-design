@@ -28,3 +28,4 @@ booking can be another class
 	cancel a movie booking
 	
 admin/system that can have access to several classes
+It can have access to booking class, user class
