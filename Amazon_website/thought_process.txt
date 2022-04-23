@@ -6,6 +6,7 @@ We will have book order and cancel order functionality.
 
 User class for all the users
 user class can cancel order, book order
+User can search products
 
 There will be payment class for paying to book the order
 
