@@ -1,0 +1,15 @@
+The website should have items to sell.
+
+item class - it can be a base class with several classes in different categories inherting from it like electronics, groceries, clothing, footwear
+Order class to take orders
+We will have book order and cancel order functionality.
+
+User class for all the users
+user class can cancel order, book order
+
+There will be payment class for paying to book the order
+
+User class will have interaction with payment APIs
+
+We can have an admin class who can access order APIs.
+Admin can add and delete items on to the website or different sellers can do that on their own if we go with seller accounts separately.
